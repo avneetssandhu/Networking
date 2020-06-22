@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo -n "*" | nc -q1 -u www.example.com 12345
+echo -n "*" | nc -q1 -u www.example.com 23456
+echo -n "*" | nc -q1 -u www.example.com 34567
+ssh www.example.com

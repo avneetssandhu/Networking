@@ -1,0 +1,1 @@
+netsh advfirewall set currentprofile logging filename "C:\temp\pfirewall.log"
